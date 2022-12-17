@@ -1,0 +1,23 @@
+{ "links": [
+
+    {
+        "name": "Renewable Projects of Canada Compendium",
+        "description": "Simple interactive map of most Canadian renewable projects and their rated power output; Projections to net-zero.",
+        "component": "map3"
+
+    },
+    {
+        "name": "Geothermal Economic Favourability Map of Alberta",
+        "description": "Matches favourability maps to economic potential of Alberta's geothermal resource",
+        "component": "map1"
+    },
+    {
+        "name": "Alberta Geoscience Tour Map",
+        "description": "Interactive map of notable outcrops to view geological features and fossil outcrop and outwash. Includes a built-in trip planner",
+        "component": "map2"
+
+    }
+   
+  
+]
+}

@@ -1,0 +1,74 @@
+.external:hover{
+
+    animation-name: ab-highlight;
+    animation-duration: .5s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+
+}
+
+.spread:hover{
+    animation-name: spr-highlight;
+    animation-duration: .5s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+
+
+}
+
+.linktree:hover,.topbar-links:hover,.sidebar-links:hover,.logo:hover
+{
+  animation-name: gradual-highlight;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+.linktree:active
+{
+  animation-name: sinkbutton;
+  animation-duration: 0.25s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+}
+
+/*animations */
+
+@keyframes gradual-highlight
+{
+
+from   {
+  background-color:#00020c;
+   color:rgb(35, 173, 207); 
+  box-shadow: #a8a562 0 0 0vh;
+  /* border-color: rgb(76, 76, 77); */
+}
+
+to {
+  background-color:#7a8068;
+  color:#00020c; 
+  box-shadow: #FFFCBD 0 0 1vh;
+}
+}
+
+@keyframes sinkbutton
+{
+
+from   {
+  
+  left:0px;
+  top:0px
+}
+
+to {
+  
+  left:3px;
+  top:3px
+}
+}
+
+textarea:focus, input:focus{
+  box-shadow: #d80101 0 0 10px;
+  border-color: #d80101;
+  outline: none !important
+}

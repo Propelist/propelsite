@@ -1,0 +1,174 @@
+.pdfelement{
+    background-color: rgb(21, 124, 172);;
+    display:flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    font-size: 12px;
+
+}
+
+.pdf-container{
+  width:100%;
+}
+
+    .controls
+    {
+        background-color: rgba(0, 0, 0, 0.31);
+        color:rgb(212, 217, 219);
+        display:flex;
+        width:inherit;
+        justify-content: center;
+        flex-direction: row;
+        align-content: center;
+
+
+    }
+        .leftclick
+        {
+        background-color: #ebd9d9ab;
+        width:25px;
+        height:35px;
+        display:flex;
+        flex-direction:column;
+        align-content:flex-end;
+        justify-content: center;
+        text-align:center;
+        user-select: none;
+        }
+
+        
+
+        .rightclick
+        {
+        background-color: #ebd9d9ab;
+        width:25px;
+        height:35px;
+        display:flex;
+        flex-direction:column;
+        align-content: center;
+        justify-content: center;
+        text-align:center;
+        user-select: none;
+        }
+
+        .pagename
+        {
+
+        display:flex;
+
+        }
+
+        .pageIndex
+        {
+            margin-right: 30px;
+            margin-left:30px;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .zoomIndex
+        {
+            margin-right: 20px;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+
+    .handleoverflow{
+        display:flex;
+        overflow: scroll;
+        width:100%;
+        align-content: center;
+    }
+
+    
+    .minuszoom
+    {
+        background-color: #ebd9d9ab;
+        width:35px;
+        height:35px;
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        margin-right: 5px;
+        user-select: none;
+
+    }
+
+    .leftclick:active{
+        animation-name: sinkbuttons;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-timing-function: ease-out;
+
+
+    }
+
+    .pluszoom
+    {
+        background-color: #ebd9d9ab;
+        width:35px;
+        height:35px;
+        display:flex;
+        align-items:center;
+        justify-content: center;
+        user-select: none;
+
+        
+    }
+
+    @keyframes ab-highlight
+    {
+  
+    from   {
+      background-color: rgb(7, 86, 150);
+      
+    }
+  
+    to {
+      background-color:rgb(6, 67, 117);
+   
+    }
+  }
+
+  @keyframes spr-highlight
+  {
+
+  from   {
+    background-color: rgb(21, 124, 172);
+    
+  }
+
+  to {
+    background-color:rgb(17, 139, 196);
+ 
+  }
+}
+
+.leftclick:hover, .rightclick:hover, .pluszoom:hover, .minuszoom:hover{
+
+    animation-name: control-highlight;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+
+}
+
+@keyframes control-highlight
+  {
+
+  from   {
+    background-color: #ebd9d9ab;
+    
+  }
+
+  to {
+    background-color:#928787ab;
+ 
+  }
+}
+

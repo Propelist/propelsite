@@ -1,0 +1,40 @@
+{ "links": [
+
+    
+    {
+        "link": "Publications",
+        "a": "publications",
+        "img":"/images/pubIcon.png",
+        "modal": false
+
+    },
+    {
+        "link": "GIS Projects",
+        "a": "gis",
+        "img":"/images/projectIcon.png",
+        "modal": false
+    },
+    {
+        "link": "About",
+        "a": "about",
+        "img":"/images/aboutIcon.png",
+        "modal": false
+
+    },
+    {
+        "link": "GitHub",
+        "a": "github",
+        "img":"/images/githubIcon.png",
+        "modal": true
+
+    },
+    
+    {
+        "link": "Linkedin",
+        "a": "linkedin",
+        "img":"/images/linkedinIcon.png",
+        "modal": true
+
+    }
+]
+}
