@@ -1,7 +1,7 @@
 {
   "name": "propelsite",
   "homepage": "http://propel.studio",
-  "version": "1.2.0",
+  "version": "1.2**.0",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",

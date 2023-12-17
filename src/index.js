@@ -8,6 +8,7 @@ import About from './About.jsx';
 import Publications from './Publications.jsx'
 import Redirect from './Redirect.jsx';
 import Projects from './Projects.jsx';
+import Aoc2023 from './Aoc2023.jsx'
 import './css/index.css';
 import './css/Frontpage.css';
 import './css/Projects.css';
@@ -39,6 +40,10 @@ return(
     <Route
       path= "/about"
       element= {<About/>}
+      />
+    <Route
+      path= "/aoc2023"
+      element= {<Aoc2023/>}
       />
     <Route
       path= "/*"
